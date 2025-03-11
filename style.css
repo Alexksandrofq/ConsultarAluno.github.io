@@ -1,0 +1,68 @@
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+  
+  /* Input e botões */
+  input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input {
+    width: 80%;
+  }
+  
+  button {
+    width: 50%;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Resultados */
+  #resultado {
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #resultado p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+ /* Linha separadora entre os alunos */
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #000, #000, #000);
+    margin: 15px 0;
+  }
+  
